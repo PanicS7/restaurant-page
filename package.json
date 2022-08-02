@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve --open",
+    "mobile-server": "webpack serve --host 0.0.0.0"
   },
   "author": "",
   "license": "ISC",

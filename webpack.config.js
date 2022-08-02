@@ -14,7 +14,6 @@ module.exports = {
       directory: path.resolve(__dirname, "dist")
     },
     port: 8080,
-    open: true,
     hot: true
   },
   devtool: "source-map",
@@ -27,6 +26,10 @@ module.exports = {
           "css-loader",
           "sass-loader"
         ]
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       }
     ]
   },

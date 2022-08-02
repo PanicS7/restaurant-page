@@ -1,3 +1,53 @@
-body {
-  background-color: red;
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Variables
+$base-color: #fff;
+$background-color: #222;
+$secondary-color: #f00;
+
+// main container
+#content {
+  background-image: url(../images/background.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 100vh;
+  color: $base-color;
+  // Header
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $background-color;
+    padding: 2em;
+    opacity: 0.85;
+    #nav-list {
+      display: flex;
+      gap: 1em;
+      list-style-type: none;
+      cursor: pointer;
+      // Responsive
+      @media screen and (max-width: 720px) {
+        margin-top: 1em;
+        justify-content: center;
+      }
+
+      .nav-item {
+        font-size: 20px;
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+
+    // Responsive
+    @media screen and (max-width: 720px) {
+      display: block;
+      text-align: center;
+    }
+  }
 }
