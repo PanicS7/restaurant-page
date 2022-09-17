@@ -52,4 +52,14 @@ p {
       text-align: center;
     }
   }
+  // Footer 
+  #footer {
+    background-color: $background-color;
+    padding: 1em;
+    opacity: 0.85;
+    text-align: center;
+    a {
+      color: $link-color;
+    }
+  }
 }
