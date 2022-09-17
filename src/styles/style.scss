@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+// Typografy
+p {
+  font-size: 16px;
+}
 
-// Variables
-$base-color: #fff;
-$background-color: #222;
-$secondary-color: #f00;
+// Utilities
+@import "./utilities";
 
 // main container
 #content {

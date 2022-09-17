@@ -1,4 +1,4 @@
-// Styles
+// Common Styles
 import "./styles/style.scss";
 // Components
 import Header from "./components/Header";
