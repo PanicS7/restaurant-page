@@ -9,12 +9,11 @@ function Header() {
         <ul id="nav-list">
           <li class="nav-item">Home</li>
           <li class="nav-item">About</li>
-          <li class="nav-item">Contact</li>
+          <li class="nav-item">Menu</li>
         </ul>
       </nav>
     </header>
   `;
-
   
   return header;
 }
