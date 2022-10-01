@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 // Pages
 import HomePage from "./pages/Home";
-import AboutPage from "./pages/About";
+import ContactPage from "./pages/Contact";
 import MenuPage from "./pages/Menu";
 
 
@@ -42,11 +42,11 @@ function changePage(event) {
     case "Home":
       document.getElementById("page").innerHTML = HomePage();
       break;
-    case "About":
-      document.getElementById("page").innerHTML = AboutPage();
-      break;
     case "Menu":
       document.getElementById("page").innerHTML = MenuPage();
+      break;
+    case "Contact":
+      document.getElementById("page").innerHTML = ContactPage();
       break;
     default:
       document.getElementById("page").innerHTML += HomePage();

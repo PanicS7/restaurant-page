@@ -8,8 +8,8 @@ function Header() {
       <nav id="nav">
         <ul id="nav-list">
           <li class="nav-item">Home</li>
-          <li class="nav-item">About</li>
           <li class="nav-item">Menu</li>
+          <li class="nav-item">Contact</li>
         </ul>
       </nav>
     </header>
