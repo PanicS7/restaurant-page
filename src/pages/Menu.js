@@ -45,7 +45,7 @@ function MenuPage() {
       <div id="menu-container">
         ${menuImages.map(image => {
           return MenuItem(image.name, image.url)
-          // .join("") will remove extra "," what apear at screen
+          // .join("") will remove extra "," what is visible at screen
         }).join("")}
       </div>
     </div>
