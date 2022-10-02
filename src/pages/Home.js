@@ -27,7 +27,7 @@ function HomePage() {
         </div>
         <div id="location" class="home-section">
           <h2 class="title">Location</h2>
-          <p class="indented">Takovska bb, Belgrade, Serbia</p>
+          <p class="indented">Belgrade, Serbia</p>
         </div>
       </div>
 

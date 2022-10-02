@@ -1,0 +1,38 @@
+// Utilities
+@import "./utilities";
+
+#contact {
+  #contact-container {
+    background-color: $background-color;
+    opacity: 0.85;
+    width: 70vw;
+    margin: 3em auto;
+    padding: 2em;
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+    #contact-icons {
+      width: 90%;
+    } 
+    iframe {
+      width: 90%;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 90vw;
+      display: block;
+
+      iframe {
+        width: 100%;
+        min-height: 400px;
+      }
+    }
+
+    p {
+      margin: 0.5em 0;
+    }
+  }
+}
