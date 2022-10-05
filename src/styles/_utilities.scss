@@ -3,3 +3,14 @@ $base-color: #fff;
 $background-color: #222;
 $secondary-color: #f00;
 $link-color: #89cdfd;
+
+//Mixins
+@mixin background-style {
+  background-color: $background-color;
+  opacity: 0.85;
+  width: 70vw;
+  margin: 3em auto;
+  padding: 2em;
+  display: flex;
+  gap: 3em;
+}
